@@ -12,7 +12,7 @@ const SOCIAL_LINKS = [
 ];
 
 // PLACEHOLDER: 你的 email
-const EMAIL = "hello@yourname.studio";
+const EMAIL = "wesleywongtk@gmial.com";
 
 export default function Footer() {
   const [copied, setCopied] = useState(false);
@@ -33,9 +33,9 @@ export default function Footer() {
       >
         <span className="font-mono text-xs uppercase tracking-[.15em] text-paper-dim">Contact — 04</span>
         <h2 className="font-display font-light leading-[.95] mt-6">
-          <div className="text-[13vw] md:text-[6.5vw]">讓我們</div>
+          <div className="text-[13vw] md:text-[6.5vw]">Contact me</div>
           <div className="text-[13vw] md:text-[6.5vw] italic">
-            開始合作<span className="text-paper-dim">。</span>
+            for more information.<span className="text-paper-dim">。</span>
           </div>
         </h2>
       </motion.div>
@@ -46,7 +46,7 @@ export default function Footer() {
           data-cursor="explore"
           className="group flex items-center gap-4 font-mono text-lg md:text-2xl border-b border-line pb-3 w-fit hover:border-brass transition-colors"
         >
-          <span>{copied ? "已複製 email！" : EMAIL}</span>
+          <span>{copied ? "copied email！" : EMAIL}</span>
           {copied ? (
             <Check className="w-4 h-4 text-brass" />
           ) : (
@@ -64,8 +64,8 @@ export default function Footer() {
       </div>
 
       <div className="mt-24 flex flex-col md:flex-row justify-between gap-4 pt-6 border-t border-line font-mono text-[10px] uppercase tracking-wider text-paper-dim">
-        <p>© 2026 你的姓名. All rights reserved.</p>
-        <p>Design &amp; Built with care in Taiwan.</p>
+        <p>© 2026 Wesley Wong. All rights reserved.</p>
+        <p>Design &amp; Built with Wesley Wong. in Taiwan.</p>
       </div>
     </footer>
   );

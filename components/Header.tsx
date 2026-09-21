@@ -25,7 +25,7 @@ export default function Header() {
       <header className="fixed top-0 left-0 w-full z-40 px-6 md:px-10 py-6 flex items-center justify-between mix-blend-difference">
         <a href="#top" className="font-display font-medium text-lg" data-cursor="explore">
           {/* PLACEHOLDER: 姓名 / Logo */}
-          你的姓名<span className="text-brass">.</span>
+          Wesley Wong<span className="text-brass">.</span>
         </a>
 
         <nav className="hidden md:flex items-center gap-10 font-mono text-[11px] uppercase tracking-[.15em]">

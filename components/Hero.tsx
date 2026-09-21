@@ -69,7 +69,7 @@ export default function Hero() {
               animate="visible"
               variants={lineVariants}
             >
-              互動網頁，
+              From concept to creation — 
             </motion.span>
           </span>
           <span className="block overflow-hidden">
@@ -80,7 +80,7 @@ export default function Hero() {
               animate="visible"
               variants={lineVariants}
             >
-              是說故事的另一種語言。
+              turning imagination into reality.
             </motion.span>
           </span>
         </h1>
@@ -94,7 +94,7 @@ export default function Hero() {
             variants={lineVariants}
           >
             {/* PLACEHOLDER: 一句話定位 */}
-            我是一名創意前端工程師，專注於將品牌敘事轉化為具備細膩動態與高質感體驗的數位作品。
+            I am a hybrid technical specialist combining an engineering drafting background with an IT-driven mindset, focused on semiconductor specialty gas piping design and structured engineering data management.
           </motion.p>
         </span>
       </div>
